@@ -490,7 +490,7 @@
     "ldap": {
         "type": "filelist",
         "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/",
-        "regex": "/href=\"(?<file>openldap-(?<version>[^\"]+)\\.tgz)\"/",
+        "regex": "/href=\"(?<file>openldap-(?<version>2\\.6\\.[^\"]+)\\.tgz)\"/",
         "license": {
             "type": "file",
             "path": "LICENSE"
